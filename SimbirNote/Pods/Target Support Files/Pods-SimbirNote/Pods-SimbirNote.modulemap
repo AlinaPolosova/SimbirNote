@@ -1,0 +1,6 @@
+framework module Pods_SimbirNote {
+  umbrella header "Pods-SimbirNote-umbrella.h"
+
+  export *
+  module * { export * }
+}

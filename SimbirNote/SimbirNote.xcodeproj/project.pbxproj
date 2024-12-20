@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0497950A2D1027A100AC7410 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049795092D1027A100AC7410 /* Note.swift */; };
+		0497950C2D102A2C00AC7410 /* PersistedColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497950B2D102A2C00AC7410 /* PersistedColor.swift */; };
+		0497950F2D102A9100AC7410 /* UIColor+HEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497950E2D102A9100AC7410 /* UIColor+HEX.swift */; };
+		049795122D102CC400AC7410 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049795112D102CC400AC7410 /* RealmManager.swift */; };
+		049795152D1074D100AC7410 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049795142D1074D100AC7410 /* ColorViewController.swift */; };
+		049795182D10779A00AC7410 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049795172D10779A00AC7410 /* ColorCell.swift */; };
+		0497951B2D10826800AC7410 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497951A2D10826800AC7410 /* UIColor+Extension.swift */; };
+		0497951D2D1085FC00AC7410 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497951C2D1085FC00AC7410 /* CGFloat+Extension.swift */; };
+		0497951F2D14786000AC7410 /* CreateNotePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497951E2D14786000AC7410 /* CreateNotePresenter.swift */; };
+		049795212D14792500AC7410 /* CreateNoteProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049795202D14792500AC7410 /* CreateNoteProtocols.swift */; };
+		049795232D1570DF00AC7410 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049795222D1570DF00AC7410 /* MainPresenter.swift */; };
+		049795252D1570F200AC7410 /* MainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049795242D1570F200AC7410 /* MainProtocols.swift */; };
+		0497952D2D15823400AC7410 /* CreateNotePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497952C2D15823400AC7410 /* CreateNotePresenterTests.swift */; };
+		04C9E3672D09853700C21078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E3662D09853700C21078 /* AppDelegate.swift */; };
+		04C9E36B2D09853700C21078 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E36A2D09853700C21078 /* MainViewController.swift */; };
+		04C9E36E2D09853700C21078 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 04C9E36D2D09853700C21078 /* Base */; };
+		04C9E3702D09853A00C21078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C9E36F2D09853A00C21078 /* Assets.xcassets */; };
+		04C9E3732D09853A00C21078 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 04C9E3722D09853A00C21078 /* Base */; };
+		04C9E37B2D099DC300C21078 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E37A2D099DC300C21078 /* NoteCell.swift */; };
+		04C9E3822D09B84500C21078 /* UITableViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E3812D09B84500C21078 /* UITableViewController+Extension.swift */; };
+		04C9E3872D09D08D00C21078 /* NoteHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E3862D09D08D00C21078 /* NoteHeader.swift */; };
+		04C9E38B2D0C9D5800C21078 /* CreateNote.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C9E38A2D0C9D5800C21078 /* CreateNote.storyboard */; };
+		04C9E38D2D0C9DB200C21078 /* CreateNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9E38C2D0C9DB200C21078 /* CreateNoteViewController.swift */; };
+		EA7CED7DCD55B4DE035BB22C /* Pods_SimbirNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF2704707DADF1911DC41CF /* Pods_SimbirNote.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0497952E2D15823400AC7410 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C9E35B2D09853700C21078 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C9E3622D09853700C21078;
+			remoteInfo = SimbirNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049795092D1027A100AC7410 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		0497950B2D102A2C00AC7410 /* PersistedColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistedColor.swift; sourceTree = "<group>"; };
+		0497950E2D102A9100AC7410 /* UIColor+HEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HEX.swift"; sourceTree = "<group>"; };
+		049795112D102CC400AC7410 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		049795142D1074D100AC7410 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		049795172D10779A00AC7410 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
+		0497951A2D10826800AC7410 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		0497951C2D1085FC00AC7410 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		0497951E2D14786000AC7410 /* CreateNotePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNotePresenter.swift; sourceTree = "<group>"; };
+		049795202D14792500AC7410 /* CreateNoteProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteProtocols.swift; sourceTree = "<group>"; };
+		049795222D1570DF00AC7410 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		049795242D1570F200AC7410 /* MainProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProtocols.swift; sourceTree = "<group>"; };
+		0497952A2D15823400AC7410 /* SimbirNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimbirNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0497952C2D15823400AC7410 /* CreateNotePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNotePresenterTests.swift; sourceTree = "<group>"; };
+		04C9E3632D09853700C21078 /* SimbirNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimbirNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C9E3662D09853700C21078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04C9E36A2D09853700C21078 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		04C9E36D2D09853700C21078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C9E36F2D09853A00C21078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C9E3722D09853A00C21078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04C9E3742D09853A00C21078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C9E37A2D099DC300C21078 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		04C9E3812D09B84500C21078 /* UITableViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewController+Extension.swift"; sourceTree = "<group>"; };
+		04C9E3862D09D08D00C21078 /* NoteHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteHeader.swift; sourceTree = "<group>"; };
+		04C9E38A2D0C9D5800C21078 /* CreateNote.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateNote.storyboard; sourceTree = "<group>"; };
+		04C9E38C2D0C9DB200C21078 /* CreateNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteViewController.swift; sourceTree = "<group>"; };
+		0A94BF53A3C0D48533A615F2 /* Pods-SimbirNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimbirNote.debug.xcconfig"; path = "Target Support Files/Pods-SimbirNote/Pods-SimbirNote.debug.xcconfig"; sourceTree = "<group>"; };
+		9EF2704707DADF1911DC41CF /* Pods_SimbirNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimbirNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18850F231464528088C4163 /* Pods-SimbirNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimbirNote.release.xcconfig"; path = "Target Support Files/Pods-SimbirNote/Pods-SimbirNote.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049795272D15823400AC7410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C9E3602D09853700C21078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7CED7DCD55B4DE035BB22C /* Pods_SimbirNote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049795082D10276A00AC7410 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				049795092D1027A100AC7410 /* Note.swift */,
+				0497950B2D102A2C00AC7410 /* PersistedColor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		049795102D102CA500AC7410 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				049795112D102CC400AC7410 /* RealmManager.swift */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		049795132D1074A100AC7410 /* ColorPopOver */ = {
+			isa = PBXGroup;
+			children = (
+				049795162D10778800AC7410 /* View */,
+				049795142D1074D100AC7410 /* ColorViewController.swift */,
+			);
+			path = ColorPopOver;
+			sourceTree = "<group>";
+		};
+		049795162D10778800AC7410 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				049795172D10779A00AC7410 /* ColorCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		049795192D10823A00AC7410 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				0497951A2D10826800AC7410 /* UIColor+Extension.swift */,
+				0497951C2D1085FC00AC7410 /* CGFloat+Extension.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		0497952B2D15823400AC7410 /* SimbirNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				0497952C2D15823400AC7410 /* CreateNotePresenterTests.swift */,
+			);
+			path = SimbirNoteTests;
+			sourceTree = "<group>";
+		};
+		04C9E35A2D09853700C21078 = {
+			isa = PBXGroup;
+			children = (
+				04C9E3652D09853700C21078 /* SimbirNote */,
+				0497952B2D15823400AC7410 /* SimbirNoteTests */,
+				04C9E3642D09853700C21078 /* Products */,
+				91027AFA62979DE16BB8BB50 /* Pods */,
+				58E5A347448E0E5744452A88 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04C9E3642D09853700C21078 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C9E3632D09853700C21078 /* SimbirNote.app */,
+				0497952A2D15823400AC7410 /* SimbirNoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C9E3652D09853700C21078 /* SimbirNote */ = {
+			isa = PBXGroup;
+			children = (
+				04C9E37C2D099DCF00C21078 /* Application */,
+				04C9E37D2D099DE500C21078 /* Controllers */,
+				049795082D10276A00AC7410 /* Models */,
+				049795192D10823A00AC7410 /* DesignSystem */,
+				049795102D102CA500AC7410 /* BusinessLogic */,
+				04C9E37F2D09B75800C21078 /* Core */,
+				04C9E36F2D09853A00C21078 /* Assets.xcassets */,
+				04C9E3712D09853A00C21078 /* LaunchScreen.storyboard */,
+				04C9E3742D09853A00C21078 /* Info.plist */,
+			);
+			path = SimbirNote;
+			sourceTree = "<group>";
+		};
+		04C9E37C2D099DCF00C21078 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				04C9E3662D09853700C21078 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		04C9E37D2D099DE500C21078 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				049795132D1074A100AC7410 /* ColorPopOver */,
+				04C9E3882D0C9CE700C21078 /* CreateNote */,
+				04C9E3832D09CFF100C21078 /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04C9E37F2D09B75800C21078 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				04C9E3802D09B7A700C21078 /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		04C9E3802D09B7A700C21078 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04C9E3812D09B84500C21078 /* UITableViewController+Extension.swift */,
+				0497950E2D102A9100AC7410 /* UIColor+HEX.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04C9E3832D09CFF100C21078 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04C9E3842D09D01F00C21078 /* View */,
+				049795242D1570F200AC7410 /* MainProtocols.swift */,
+				04C9E36A2D09853700C21078 /* MainViewController.swift */,
+				049795222D1570DF00AC7410 /* MainPresenter.swift */,
+				04C9E36C2D09853700C21078 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		04C9E3842D09D01F00C21078 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04C9E37A2D099DC300C21078 /* NoteCell.swift */,
+				04C9E3862D09D08D00C21078 /* NoteHeader.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04C9E3882D0C9CE700C21078 /* CreateNote */ = {
+			isa = PBXGroup;
+			children = (
+				049795202D14792500AC7410 /* CreateNoteProtocols.swift */,
+				04C9E38C2D0C9DB200C21078 /* CreateNoteViewController.swift */,
+				0497951E2D14786000AC7410 /* CreateNotePresenter.swift */,
+				04C9E38A2D0C9D5800C21078 /* CreateNote.storyboard */,
+			);
+			path = CreateNote;
+			sourceTree = "<group>";
+		};
+		58E5A347448E0E5744452A88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EF2704707DADF1911DC41CF /* Pods_SimbirNote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91027AFA62979DE16BB8BB50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A94BF53A3C0D48533A615F2 /* Pods-SimbirNote.debug.xcconfig */,
+				A18850F231464528088C4163 /* Pods-SimbirNote.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049795292D15823400AC7410 /* SimbirNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049795302D15823400AC7410 /* Build configuration list for PBXNativeTarget "SimbirNoteTests" */;
+			buildPhases = (
+				049795262D15823400AC7410 /* Sources */,
+				049795272D15823400AC7410 /* Frameworks */,
+				049795282D15823400AC7410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0497952F2D15823400AC7410 /* PBXTargetDependency */,
+			);
+			name = SimbirNoteTests;
+			productName = SimbirNoteTests;
+			productReference = 0497952A2D15823400AC7410 /* SimbirNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04C9E3622D09853700C21078 /* SimbirNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C9E3772D09853A00C21078 /* Build configuration list for PBXNativeTarget "SimbirNote" */;
+			buildPhases = (
+				CE641AE18739BB09AECA038A /* [CP] Check Pods Manifest.lock */,
+				04C9E35F2D09853700C21078 /* Sources */,
+				04C9E3602D09853700C21078 /* Frameworks */,
+				04C9E3612D09853700C21078 /* Resources */,
+				F5F9D429ABBAE7B2C7CC8AA0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimbirNote;
+			productName = SimbirNote;
+			productReference = 04C9E3632D09853700C21078 /* SimbirNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C9E35B2D09853700C21078 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					049795292D15823400AC7410 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 04C9E3622D09853700C21078;
+					};
+					04C9E3622D09853700C21078 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 04C9E35E2D09853700C21078 /* Build configuration list for PBXProject "SimbirNote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C9E35A2D09853700C21078;
+			productRefGroup = 04C9E3642D09853700C21078 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C9E3622D09853700C21078 /* SimbirNote */,
+				049795292D15823400AC7410 /* SimbirNoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049795282D15823400AC7410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C9E3612D09853700C21078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C9E3702D09853A00C21078 /* Assets.xcassets in Resources */,
+				04C9E3732D09853A00C21078 /* Base in Resources */,
+				04C9E38B2D0C9D5800C21078 /* CreateNote.storyboard in Resources */,
+				04C9E36E2D09853700C21078 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE641AE18739BB09AECA038A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimbirNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F9D429ABBAE7B2C7CC8AA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimbirNote/Pods-SimbirNote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimbirNote/Pods-SimbirNote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimbirNote/Pods-SimbirNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049795262D15823400AC7410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0497952D2D15823400AC7410 /* CreateNotePresenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C9E35F2D09853700C21078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C9E37B2D099DC300C21078 /* NoteCell.swift in Sources */,
+				0497950F2D102A9100AC7410 /* UIColor+HEX.swift in Sources */,
+				049795252D1570F200AC7410 /* MainProtocols.swift in Sources */,
+				049795232D1570DF00AC7410 /* MainPresenter.swift in Sources */,
+				0497951F2D14786000AC7410 /* CreateNotePresenter.swift in Sources */,
+				049795212D14792500AC7410 /* CreateNoteProtocols.swift in Sources */,
+				0497950C2D102A2C00AC7410 /* PersistedColor.swift in Sources */,
+				04C9E3822D09B84500C21078 /* UITableViewController+Extension.swift in Sources */,
+				0497950A2D1027A100AC7410 /* Note.swift in Sources */,
+				049795182D10779A00AC7410 /* ColorCell.swift in Sources */,
+				04C9E36B2D09853700C21078 /* MainViewController.swift in Sources */,
+				04C9E3872D09D08D00C21078 /* NoteHeader.swift in Sources */,
+				049795122D102CC400AC7410 /* RealmManager.swift in Sources */,
+				04C9E38D2D0C9DB200C21078 /* CreateNoteViewController.swift in Sources */,
+				0497951B2D10826800AC7410 /* UIColor+Extension.swift in Sources */,
+				049795152D1074D100AC7410 /* ColorViewController.swift in Sources */,
+				0497951D2D1085FC00AC7410 /* CGFloat+Extension.swift in Sources */,
+				04C9E3672D09853700C21078 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0497952F2D15823400AC7410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C9E3622D09853700C21078 /* SimbirNote */;
+			targetProxy = 0497952E2D15823400AC7410 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04C9E36C2D09853700C21078 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C9E36D2D09853700C21078 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04C9E3712D09853A00C21078 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C9E3722D09853A00C21078 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049795312D15823400AC7410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6BAGXP8PQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apolosova.SimbirNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimbirNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimbirNote";
+			};
+			name = Debug;
+		};
+		049795322D15823400AC7410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6BAGXP8PQ;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apolosova.SimbirNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimbirNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimbirNote";
+			};
+			name = Release;
+		};
+		04C9E3752D09853A00C21078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04C9E3762D09853A00C21078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C9E3782D09853A00C21078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A94BF53A3C0D48533A615F2 /* Pods-SimbirNote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6BAGXP8PQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimbirNote/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apolosova.SimbirNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04C9E3792D09853A00C21078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18850F231464528088C4163 /* Pods-SimbirNote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6BAGXP8PQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimbirNote/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = apolosova.SimbirNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049795302D15823400AC7410 /* Build configuration list for PBXNativeTarget "SimbirNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049795312D15823400AC7410 /* Debug */,
+				049795322D15823400AC7410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C9E35E2D09853700C21078 /* Build configuration list for PBXProject "SimbirNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C9E3752D09853A00C21078 /* Debug */,
+				04C9E3762D09853A00C21078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C9E3772D09853A00C21078 /* Build configuration list for PBXNativeTarget "SimbirNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C9E3782D09853A00C21078 /* Debug */,
+				04C9E3792D09853A00C21078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C9E35B2D09853700C21078 /* Project object */;
+}
